@@ -1,8 +1,8 @@
 import {test,expect} from "@playwright/test"
 import {HomePage} from "../pages/homepage"
+import {SearchResultPage} from "../pages/SearchResultPage"
 
 
-test("Baby WishList Validation", async ()=>{
 test('Text Validation in Product page',{tag: '@Regression'},async ({page})=>{
 
     await page.goto("https://www.amazon.in/")
