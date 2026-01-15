@@ -14,6 +14,7 @@ for(const item of searchItem){
     await homePage.clickSearchIcon()
    let searchResult = new SearchResultPage(page)
    expect(await searchResult.getResultText()).toEqual("Results")
+   console.log("test")
 
 })
     
