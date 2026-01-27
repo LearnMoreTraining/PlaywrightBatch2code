@@ -1,5 +1,5 @@
 
 export class TestConfig{
 
-    appURL = "https://login.salesforce.com/"
+    appURL = "https://www.amazon.in/"
 }
